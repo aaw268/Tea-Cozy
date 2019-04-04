@@ -12,6 +12,7 @@ header nav{
   color: seashell;
   display: flex;
   align-items: center;
+  flex-grow: 1;
   padding-left: 800px;
   background-color: black;
   font-family: helvetica;
@@ -25,8 +26,8 @@ header nav{
   flex-grow: 1;
 }
 span a{
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
   color: seashell;
 }
 html, body{
@@ -36,19 +37,23 @@ height: 100%;
 }
 .mission-text{
   color: seashell;
-  padding: 100px;
+  padding: 0px;
   font-family: helvetica;
   font-size: 22px;
   background-color: black;
-  opacity: 0.9;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10;
 }
 .mission-img{
   background-image: url("../photos/background.jpeg");
   height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-repeat: no-repeat;
 }
 .tea-month{
   color: seashell;
@@ -58,6 +63,7 @@ height: 100%;
   background-color: black;
   opacity: 0.9;
   width: 1000px;
+
 }
 .column img{
   height: 200px;
@@ -84,8 +90,11 @@ height: 100%;
 .tea-month-header h2{
   display: flex;
   justify-content: center;
-
+  margin: 0;
 }
 .tea-month{
   width: 1000px;
+}
+body{
+  margin: 0;
 }
